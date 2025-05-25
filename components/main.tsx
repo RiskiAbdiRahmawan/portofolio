@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import {SiLaravel,SiTailwindcss,SiMysql,SiBootstrap,SiPhp} from "react-icons/si"
+import {SiLaravel,SiTailwindcss,SiMysql,SiBootstrap,SiPhp, SiNextdotjs} from "react-icons/si"
 import Image from "next/image";
 import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
 
@@ -30,6 +30,17 @@ const projects = [
     description: "Sistem Manajemen Stok Bawang Merah",
     tech: [
       { name: "Laravel", icon: SiLaravel, color: "#FF2D55" },
+      { name: "Tailwind", icon: SiTailwindcss, color: "#06B6D4" },
+      { name: "MySQL", icon: SiMysql, color: "#06B6D4" },
+    ],
+    image: "/projects/alliumprime.png",
+  },
+  {
+    title: "Fintrack",
+    description: "Sistem Manajemen Keuangan Sport Cente",
+    tech: [
+      { name: "Laravel", icon: SiLaravel, color: "#FF2D55" },
+      { name: "NextJS", icon: SiNextdotjs, color: "#FF2D55" },
       { name: "Tailwind", icon: SiTailwindcss, color: "#06B6D4" },
       { name: "MySQL", icon: SiMysql, color: "#06B6D4" },
     ],
