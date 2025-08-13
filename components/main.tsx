@@ -18,7 +18,8 @@ import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
 const projects = [
   {
     title: "SIWET",
-    description: "Sistem Informasi Pengelolaan Data dan Informasi RW",
+    description:
+      "Sistem Informasi Warga Era Terbaru adalah platform digital yang dirancang khusus untuk mempermudah pengelolaan administrasi dan komunikasi di tingkat RW dan PKK.",
     tech: [
       { name: "Laravel", icon: SiLaravel, color: "#FF2D55" },
       { name: "Tailwind", icon: SiTailwindcss, color: "#06B6D4" },
@@ -28,7 +29,8 @@ const projects = [
   },
   {
     title: "Dimsum",
-    description: "Sistem pemesanan dimsum online",
+    description:
+      "Sistem Penjualan Dimsum adalah aplikasi berbasis web yang memudahkan pelanggan untuk memesan dan melakukan checkout secara cepat.",
     tech: [
       { name: "PHP", icon: SiPhp, color: "#06B6D4" },
       { name: "Bootstrap", icon: SiBootstrap, color: "#563d7c" },
@@ -38,7 +40,8 @@ const projects = [
   },
   {
     title: "SIKAN",
-    description: "Sistem Informasi Kantin",
+    description:
+      "Sistem Informasi Kantin adalah solusi digital untuk mempermudah pengelolaan operasional kantin. Sistem ini dapat mencatat transaksi penjualan secara real-time.",
     tech: [
       { name: "PHP", icon: SiPhp, color: "#06B6D4" },
       { name: "CSS", icon: SiCss3, color: "#563d7c" },
@@ -48,13 +51,15 @@ const projects = [
   },
   {
     title: "Daster Malang",
-    description: "POS UMKM",
+    description:
+      "Platform toko online yang memudahkan penjual dalam memasarkan koleksi daster secara profesional.",
     tech: [{ name: "WordPress", icon: SiWordpress, color: "#06B6D4" }],
     image: "/projects/dastermalang.png",
   },
   {
     title: "Fintrack",
-    description: "Sistem Manajemen Keuangan Sport Center",
+    description:
+      "Aplikasi terpadu yang dirancang untuk membantu pengelola sport center mencatat, memantau, dan menganalisis arus keuangan secara akurat.",
     tech: [
       { name: "Laravel", icon: SiLaravel, color: "#FF2D55" },
       { name: "NextJS", icon: SiNextdotjs, color: "#06B6D4" },
@@ -65,7 +70,8 @@ const projects = [
   },
   {
     title: "Sky Watch",
-    description: "Sistem Manajemen Keuangan Sport Center",
+    description:
+      "Platform berbasis teknologi machine learning yang memantau dan memprediksi kualitas udara secara real-time.",
     tech: [
       { name: "FastAPI", icon: SiFastapi, color: "#06B6D4" },
       { name: "ReacttJS", icon: SiReact, color: "#06B6D4" },
@@ -94,24 +100,82 @@ const skills = [
 // Sertifikasi/Experience data
 const certifications = [
   {
-    title: "Dicoding - Belajar Membuat Aplikasi Web dengan React",
+    title: "Dicoding - Belajar Backend Pemula dengan Javascript",
     issuer: "Dicoding Indonesia",
-    date: "2024",
+    date: "2025",
     image: "/file.svg",
-    link: "https://www.dicoding.com/certificates/XXXXXX",
+    link: "https://www.dicoding.com/certificates/07Z63OKQ2ZQR",
   },
   {
-    title: "Google - Digital Garage: Fundamentals of Digital Marketing",
-    issuer: "Google",
-    date: "2023",
-    image: "/vercel.svg",
+    title: "Dicoding -  Belajar Dasar Git dengan GitHub",
+    issuer: "Dicoding Indonesia",
+    date: "2025",
+    image: "/file.svg",
+    link: "https://www.dicoding.com/certificates/07Z63OKQ2ZQR",
+  },
+  {
+    title: "Dicoding -   Belajar Dasar Pemrograman JavaScript",
+    issuer: "Dicoding Indonesia",
+    date: "2025",
+    image: "/file.svg",
+    link: "https://www.dicoding.com/certificates/07Z63OKQ2ZQR",
+  },
+  {
+    title: "Dicoding -  Belajar Membuat Front-End Web untuk Pemula",
+    issuer: "Dicoding Indonesia",
+    date: "2025",
+    image: "/file.svg",
+    link: "https://www.dicoding.com/certificates/07Z63OKQ2ZQR",
+  },
+  {
+    title:
+      "Dicoding -   Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
+    issuer: "Dicoding Indonesia",
+    date: "2025",
+    image: "/file.svg",
+    link: "https://www.dicoding.com/certificates/07Z63OKQ2ZQR",
+  },
+  {
+    title: "Dicoding -  Belajar Dasar Pemrograman Web",
+    issuer: "Dicoding Indonesia",
+    date: "2025",
+    image: "/file.svg",
+    link: "https://www.dicoding.com/certificates/07Z63OKQ2ZQR",
+  },
+  {
+    title: "Dicoding -  Belajar Fundamental Front-End Web Development",
+    issuer: "Dicoding Indonesia",
+    date: "2025",
+    image: "/file.svg",
+    link: "https://www.dicoding.com/certificates/07Z63OKQ2ZQR",
+  },
+  {
+    title: "Dicoding -  Belajar Pengembangan Web Intermediate",
+    issuer: "Dicoding Indonesia",
+    date: "2025",
+    image: "/file.svg",
+    link: "https://www.dicoding.com/certificates/07Z63OKQ2ZQR",
+  },
+  {
+    title:
+      "Dicoding -   Pengenalan ke Logika Pemrograman (Programming Logic 101)",
+    issuer: "Dicoding Indonesia",
+    date: "2025",
+    image: "/file.svg",
+    link: "https://www.dicoding.com/certificates/07Z63OKQ2ZQR",
+  },
+  {
+    title: "DQLab - Fundamental SQL Using SELECT Statement",
+    issuer: "DQLab",
+    date: "2024",
+    image: "/file.svg",
     link: "https://learndigital.withgoogle.com/digitalgarage",
   },
   {
-    title: "Progate - Web Development Path",
-    issuer: "Progate",
-    date: "2022",
-    image: "/next.svg",
+    title: "DBS Foundation - Coding Camp Powered by DBS Foundation, specializing in Front-End and Back End Developer",
+    issuer: "DBS Foundation",
+    date: "2025",
+    image: "/file.svg",
     link: "https://progate.com/courses/web_development",
   },
 ];
@@ -305,10 +369,10 @@ export default function Main() {
           </motion.div>
         </div>
       </section>
-      {/* Experience Section */}
+      {/* Sertifikat Keahlian Section */}
       <section
         className="py-24 bg-gradient-to-r from-tertiary/5 to-primary/5"
-        id="experience"
+        id="certificates"
       >
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
@@ -318,48 +382,86 @@ export default function Main() {
             className="flex flex-col items-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-content mb-4 text-center">
-              Experience & Certifications
+              Sertifikat Keahlian
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-tertiary to-primary rounded-full" />
             <p className="text-content/70 mt-4 text-center max-w-2xl">
-              Berikut adalah beberapa sertifikasi dan pengalaman yang telah saya
-              raih dalam bidang pengembangan web dan teknologi.
+              Berikut adalah beberapa sertifikat keahlian yang telah saya raih.
+              Klik pada sertifikat untuk melihat detail atau preview lebih
+              besar.
             </p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {certifications.map((cert, idx) => (
-              <motion.a
+              <motion.div
                 key={cert.title}
-                href={cert.link}
-                target="_blank"
-                rel="noopener noreferrer"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
                 className="flex flex-col items-center bg-surface rounded-2xl shadow-lg p-8 border border-white/10 hover:shadow-xl transition-all duration-300 cursor-pointer group"
               >
-                <Image
-                  src={cert.image}
-                  alt={cert.title}
-                  width={64}
-                  height={64}
-                  className="mb-4 object-contain"
-                />
-                <h3 className="font-bold text-xl text-content text-center mb-2 group-hover:text-primary transition-colors">
-                  {cert.title}
-                </h3>
-                <span className="text-content/70 text-sm mb-1">
-                  {cert.issuer}
-                </span>
-                <span className="text-content/50 text-xs">{cert.date}</span>
-              </motion.a>
+                <a
+                  href={cert.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full flex flex-col items-center"
+                >
+                  <div className="w-full h-48 flex items-center justify-center mb-4 overflow-hidden rounded-xl border border-white/10 bg-white/5 group-hover:scale-105 transition-transform">
+                    {/* Jika ada thumbnail sertifikat, gunakan Image. Jika tidak, tampilkan icon PDF */}
+                    {cert.image ? (
+                      <Image
+                        src={cert.image}
+                        alt={cert.title}
+                        width={80}
+                        height={80}
+                        className="object-contain"
+                      />
+                    ) : (
+                      <svg
+                        width="80"
+                        height="80"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        className="text-primary"
+                      >
+                        <rect width="24" height="24" rx="4" fill="#F43F5E" />
+                        <text
+                          x="12"
+                          y="16"
+                          textAnchor="middle"
+                          fontSize="10"
+                          fill="white"
+                          fontWeight="bold"
+                        >
+                          PDF
+                        </text>
+                      </svg>
+                    )}
+                  </div>
+                  <h3 className="font-bold text-xl text-content text-center mb-2 group-hover:text-primary transition-colors">
+                    {cert.title}
+                  </h3>
+                  <span className="text-content/70 text-sm mb-1">
+                    {cert.issuer}
+                  </span>
+                  <span className="text-content/50 text-xs mb-2">
+                    {cert.date}
+                  </span>
+                  <span className="inline-block px-4 py-1 rounded-full bg-primary text-white text-xs font-semibold mt-2 group-hover:bg-tertiary transition-colors">
+                    Lihat Sertifikat PDF
+                  </span>
+                </a>
+              </motion.div>
             ))}
           </div>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section className="py-24 bg-gradient-to-r from-primary/10 to-tertiary/10" id="contact">
+      <section
+        className="py-24 bg-gradient-to-r from-primary/10 to-tertiary/10"
+        id="contact"
+      >
         <div className="max-w-3xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -367,21 +469,66 @@ export default function Main() {
             transition={{ duration: 0.7 }}
             className="flex flex-col items-center mb-10"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-content mb-4 text-center">Contact</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-content mb-4 text-center">
+              Contact
+            </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-primary to-tertiary rounded-full mb-6" />
             <p className="text-content/80 text-lg text-center max-w-2xl mb-8">
-              Tertarik untuk berkolaborasi, bertanya, atau sekadar menyapa? Silakan hubungi saya melalui form di bawah atau media sosial berikut!
+              Tertarik untuk berkolaborasi, bertanya, atau sekadar menyapa?
+              Silakan hubungi saya melalui form di bawah atau media sosial
+              berikut!
             </p>
             <form className="w-full flex flex-col gap-4 items-center">
-              <input type="text" placeholder="Nama" className="w-full max-w-md px-4 py-3 rounded-lg border border-white/20 bg-surface text-content focus:outline-primary" required />
-              <input type="email" placeholder="Email" className="w-full max-w-md px-4 py-3 rounded-lg border border-white/20 bg-surface text-content focus:outline-primary" required />
-              <textarea placeholder="Pesan" className="w-full max-w-md px-4 py-3 rounded-lg border border-white/20 bg-surface text-content focus:outline-primary resize-none" rows={4} required />
-              <button type="submit" className="px-8 py-3 rounded-full bg-primary text-white font-bold shadow-lg hover:bg-tertiary transition-colors">Kirim Pesan</button>
+              <input
+                type="text"
+                placeholder="Nama"
+                className="w-full max-w-md px-4 py-3 rounded-lg border border-white/20 bg-surface text-content focus:outline-primary"
+                required
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                className="w-full max-w-md px-4 py-3 rounded-lg border border-white/20 bg-surface text-content focus:outline-primary"
+                required
+              />
+              <textarea
+                placeholder="Pesan"
+                className="w-full max-w-md px-4 py-3 rounded-lg border border-white/20 bg-surface text-content focus:outline-primary resize-none"
+                rows={4}
+                required
+              />
+              <button
+                type="submit"
+                className="px-8 py-3 rounded-full bg-primary text-white font-bold shadow-lg hover:bg-tertiary transition-colors"
+              >
+                Kirim Pesan
+              </button>
             </form>
             <div className="flex gap-6 mt-8">
-              <a href="mailto:riskiabdirahmawan@gmail.com" target="_blank" rel="noopener" className="text-primary hover:text-tertiary text-2xl font-bold">Email</a>
-              <a href="https://www.linkedin.com/in/riskiabdirahmawan" target="_blank" rel="noopener" className="text-primary hover:text-tertiary text-2xl font-bold">LinkedIn</a>
-              <a href="https://github.com/RiskiAbdiRahmawan" target="_blank" rel="noopener" className="text-primary hover:text-tertiary text-2xl font-bold">GitHub</a>
+              <a
+                href="mailto:riskiabdirahmawan@gmail.com"
+                target="_blank"
+                rel="noopener"
+                className="text-primary hover:text-tertiary text-2xl font-bold"
+              >
+                Email
+              </a>
+              <a
+                href="https://www.linkedin.com/in/riskiabdirahmawan"
+                target="_blank"
+                rel="noopener"
+                className="text-primary hover:text-tertiary text-2xl font-bold"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/RiskiAbdiRahmawan"
+                target="_blank"
+                rel="noopener"
+                className="text-primary hover:text-tertiary text-2xl font-bold"
+              >
+                GitHub
+              </a>
             </div>
           </motion.div>
         </div>

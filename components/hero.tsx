@@ -47,7 +47,7 @@ export default function Hero() {
             </motion.p>
 
             <motion.button
-              onClick={() => window.open("/resume.pdf", "_blank")}
+              onClick={() => window.open("/CV.pdf", "_blank")}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.2 }}
